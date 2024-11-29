@@ -1,0 +1,10 @@
+<h2>Lista pizze</h2>
+<ul>
+  <li (click)="onSelectPizza(pizze[0].id)">{{pizze[0].nome}} {{pizze[0].prezzo}}</li>
+  <li (click)="onSelectPizza(pizze[1].id)">{{pizze[1].nome}} {{pizze[1].prezzo}}</li>
+  <li (click)="onSelectPizza(pizze[2].id)">{{pizze[2].nome}} {{pizze[2].prezzo}}</li>
+  <li (click)="onSelectPizza(pizze[3].id)">{{pizze[3].nome}} {{pizze[3].prezzo}}</li>
+</ul>
+
+<p>Pizza: {{pizzeObj.nome}}</p>
+<p>Prezzo: {{pizzeObj.prezzo}}</p>
